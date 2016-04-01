@@ -9,6 +9,12 @@
     "default_icon": "banana.png",
     "default_popup": "popup.html"
   },
+  "content_scripts": [
+    {
+      "matches": ["https://ucdavisit.service-now.com/*"],
+      "js": ["jquery-1.9.1.min.js","myscript.js"]
+    }
+  ],
   "permissions": [
     "activeTab",
     "https://ajax.googleapis.com/"
