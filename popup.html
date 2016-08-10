@@ -1,66 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+<script src="semantic/dist/semantic.min.js"></script>
+
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 <link href="jquery-ui.min.css" rel="stylesheet" />
-<link href="bootstrap.min.css" rel="stylesheet" />
-<link href="style.min.css" rel="stylesheet" />
-<link href="switchery.min.css" rel="stylesheet" />
 </head>
 
 <body>
 
 
-					<ul class="nav nav-tabs">
-						<li class="active"><a href="#default-tab-1" data-toggle="tab">Notifications</a></li>
-						<li class=""><a href="#default-tab-2" data-toggle="tab">Theme</a></li>
-					</ul>
-					<div class="tab-content">
-						<div class="tab-pane fade active in" id="default-tab-1">
-							<h3 class="m-t-10"><i class="fa fa-cog"></i>Ticket Alerts</h3>
-							<p>
-								Play a sound when there's a new ticket:
-                                <input type="checkbox" data-render="switchery" data-theme="blue" data-change="check-switchery-state-text" checked />
-                                <a href="#" class="btn btn-xs btn-primary disabled m-l-5" data-id="switchery-state-text">true</a>
-                            </p>
-							</p>
-							<hr>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-								Integer ac dui eu felis hendrerit lobortis. Phasellus elementum, nibh eget adipiscing porttitor, 
-								est diam sagittis orci, a ornare nisi quam elementum tortor. Proin interdum ante porta est convallis 
-								dapibus dictum in nibh. Aenean quis massa congue metus mollis fermentum eget et tellus. 
-								Aenean tincidunt, mauris ut dignissim lacinia, nisi urna consectetur sapien, nec eleifend orci eros id lectus.
-							</p>
-							<p class="text-right m-b-0">
-								<a href="javascript:;" class="btn btn-white m-r-5">Default</a>
-								<a href="javascript:;" class="btn btn-primary">Primary</a>
-							</p>
-						</div>
-						<div class="tab-pane fade" id="default-tab-2">
-							<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-								<small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-							</blockquote>
-							<h4>Lorem ipsum dolor sit amet</h4>
-							<p>
-								Nullam ac sapien justo. Nam augue mauris, malesuada non magna sed, feugiat blandit ligula. 
-								In tristique tincidunt purus id iaculis. Pellentesque volutpat tortor a mauris convallis, 
-								sit amet scelerisque lectus adipiscing.
-							</p>
-						</div>
-					</div>
+	<div class="six wide column">
+		<div class="ui left floated compact segment">
+			<div class="ui fitted toggle checkbox">
+				<input type="checkbox">
+				<label></label>
+			</div>
+		</div>
+	</div>
+
 	<script src="jquery-1.9.1.min.js"></script>
 	<script src="jquery-migrate-1.1.0.min.js"></script>
 	<script src="jquery-ui.min.js"></script>
 	<script src="bootstrap.min.js"></script>
-	<script src="jquery.slimscroll.min.js"></script>
 	<!-- ================== END BASE JS ================== -->
 	
 	<!-- ================== BEGIN PAGE LEVEL JS ================== -->
-	<script src="switchery.min.js"></script>
-	<script src="form-slider-switcher.demo.js"></script>
 	<!--[if lt IE 9]>
 		<script src="assets/crossbrowserjs/html5shiv.js"></script>
 		<script src="assets/crossbrowserjs/respond.min.js"></script>
@@ -72,7 +39,6 @@
 	<script src="apps.min.js"></script>
 	<!-- ================== END PAGE LEVEL JS ================== -->
 	
-	<script src="inline.js"> </script>
 </body>
 
 </html>
